@@ -1,0 +1,26 @@
+table, td, th {
+    border: 1px solid black;
+
+}
+#content  table{
+    background-color:lightcoral;
+    width: 300px;
+    margin: 20px 0  0 20px;
+    /* border-spacing: 10px; */
+    border-collapse: collapse; /* Seprate, Collapse */
+    table-layout: auto; /* auto, fixed */
+   
+}
+td, th {
+    vertical-align: top; /* Middel, Top, Bottom */
+    padding: 10px;
+}
+caption{
+    caption-side: top; /* Top, Bottom */
+}
+tr:hover{
+    background-color: rgba(53, 248, 10, 0.371);
+}
+tr:nth-child(even) {
+    background-color: cornsilk;
+}

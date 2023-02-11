@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cadetblue;
+}
+#main{
+    border: 1px solid black;
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+   
+}
+#header{
+    height: 70px;
+    background-color: red;
+    color: white;
+   
+    font-weight: bold;
+}
+#header h1{
+    padding:20px 0 0 20px;
+    
+}
+
+#manu{
+    background-color:goldenrod;
+}
+
+#manu{
+    background-color:palevioletred;
+}
+#manu li{
+    display:inline-block; /* li ko ek line main lake ke liye */
+    border-right: 2PX solid black;
+  
+}
+#manu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+#content{
+    width: 800px;
+    min-height: 500PX;
+    float: left;
+    padding: 15PX;
+    box-sizing: border-box;/* width control karne kiye */
+}
+#sidebar{
+    width: 200px;
+    min-height: 500px;
+    background-color: blueviolet;
+    float: right;
+}
+/*  */
+
+
+#footer{
+    background-color: yellowgreen;
+    clear: both; 
+    padding: 5PX 10PX;
+    text-align: right   ;
+}
+ul{
+    list-style-position: inside;
+}
+
+#content #box{
+    border: 1px dotted black;
+    background-color:blanchedalmond ;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    resize: horizontal;
+    margin: 20px 0  0 20px;
+}

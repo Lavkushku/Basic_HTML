@@ -1,0 +1,70 @@
+
+/* Desktop */
+@media screen and (max-width:1020px) {
+    #main{
+        width: 800px;
+    }
+    #content{
+        width: 80%;
+        
+    }
+    #sidebar{
+        width: 18%;
+        
+    }
+}
+
+/* Tab */
+@media screen and (max-width:810px) {
+    #main{
+        width: 500px;
+    }
+    #content{
+        width: 70%;
+    }
+    #sidebar{
+        width: 29%;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width:510px) {
+    #main{
+        width: auto;
+    }
+    #content{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+        min-height:5%;
+        text-decoration: none;
+
+    }
+    #sidebar li{
+        list-style-type: none;
+        margin-left: 10px;
+       
+    }
+    
+    #header h1{
+        padding:20px 0 0 0;
+        text-align: center;
+        /* font-size: 72px; */
+        /* background: -webkit-linear-gradient(blue, yellowgreen);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+    }
+    
+    #header {
+    background: linear-gradient(to bottom, red 0%, pink 100%);
+    }
+   table{
+        margin-right: 30px;
+        width: 100%;
+        
+    }
+}
